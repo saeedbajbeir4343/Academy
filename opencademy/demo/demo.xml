@@ -1,0 +1,49 @@
+<odoo>
+    <data>
+        <record id="record_name" model="record_name">
+          <field name="field_name">field_value</field>
+        </record>
+        <record id="course0" model="opencademy.coures">
+            <field name="name">Coures 0</field>
+            <field name="description">Course 0's description 
+              Can have multiple lines
+            </field>
+          </record>
+
+          <record id="course1" model="opencademy.course">
+            <field name="name">course 1</field>
+          </record>
+
+          <record id="course2" model="opencademy.course">
+            <field name="name">Course 2</field>
+            <field name="description"> Couse 2's description</field>
+          </record>
+
+      <!--
+          <record id="object0" model="opencademy.opencademy">
+            <field name="name">Object 0</field>
+            <field name="value">0</field>
+          </record>
+
+          <record id="object1" model="opencademy.opencademy">
+            <field name="name">Object 1</field>
+            <field name="value">10</field>
+          </record>
+
+          <record id="object2" model="opencademy.opencademy">
+            <field name="name">Object 2</field>
+            <field name="value">20</field>
+          </record>
+
+          <record id="object3" model="opencademy.opencademy">
+            <field name="name">Object 3</field>
+            <field name="value">30</field>
+          </record>
+
+          <record id="object4" model="opencademy.opencademy">
+            <field name="name">Object 4</field>
+            <field name="value">40</field>
+          </record>
+-->
+    </data>
+</odoo>
